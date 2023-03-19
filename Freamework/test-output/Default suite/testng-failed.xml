@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.automation.testscripts.TS_PriceComparision_Demowebshop">
+        <methods>
+          <include name="log_out"/>
+          <include name="openBrowser"/>
+          <include name="repclose"/>
+          <include name="pricecompare"/>
+          <include name="log_In"/>
+          <include name="closeBrowser"/>
+          <include name="repconfig"/>
+        </methods>
+      </class> <!-- com.automation.testscripts.TS_PriceComparision_Demowebshop -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
